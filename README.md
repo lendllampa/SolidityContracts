@@ -6,9 +6,9 @@ This smart contract accepts deposits of Ether and evenly divides and distributes
 
 **How to Use the Smart Contract:**<br/>
 1. Specify the employee wallet addresses during the initial deployment of the smart contract. <br/>
-![Deploy_image](url)
 
 2. Declare the value to distribute (Eth or wei) before using the ```deposit``` function
+![gif](https://github.com/lendllampa/SolidityContracts/blob/main/Screenshots/APS.gif)
 
 3. You can check the balance of the contract, which should always be zero. Any remaining wei after distributing to the employees will be sent back to the address that created the contract. In this case, HR.
 
